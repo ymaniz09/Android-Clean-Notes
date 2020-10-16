@@ -1,0 +1,25 @@
+import dependencies.Build
+import dependencies.Versions
+
+buildscript {
+    ext.kotlin_version = Versions.kotlin
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath Build.build_tools
+        classpath Build.kotlin_gradle_plugin
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
