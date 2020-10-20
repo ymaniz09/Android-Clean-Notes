@@ -1,4 +1,4 @@
-package com.github.ymaniz09.cleannotes.business.model
+package com.github.ymaniz09.cleannotes.business.domain.model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

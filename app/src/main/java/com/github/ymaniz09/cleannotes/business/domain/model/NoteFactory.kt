@@ -1,6 +1,6 @@
-package com.github.ymaniz09.cleannotes.business.model
+package com.github.ymaniz09.cleannotes.business.domain.model
 
-import com.github.ymaniz09.cleannotes.business.util.DateUtil
+import com.github.ymaniz09.cleannotes.business.domain.util.DateUtil
 import java.util.*
 import javax.inject.Inject
 import javax.inject.Singleton

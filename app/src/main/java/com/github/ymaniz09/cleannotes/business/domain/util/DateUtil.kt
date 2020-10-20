@@ -1,4 +1,4 @@
-package com.github.ymaniz09.cleannotes.business.util
+package com.github.ymaniz09.cleannotes.business.domain.util
 
 import com.google.firebase.Timestamp
 import java.text.SimpleDateFormat
