@@ -1,7 +1,7 @@
 package dependencies
 
 object Versions {
-    val gradle = "4.2.0-alpha13"
+    const val gradle = "4.2.0-alpha14"
     val compileSdkVersion = 30
     val buildToolsVersion = "30.0.2"
     val minSdkVersion = 21
