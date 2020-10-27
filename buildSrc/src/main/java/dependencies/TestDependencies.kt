@@ -6,4 +6,5 @@ object TestDependencies {
     val jupiter_engine = "org.junit.jupiter:junit-jupiter-engine:${Versions.junit_jupiter_version}"
     val mockk = "io.mockk:mockk:${Versions.mockk_version}"
     val junit4 = "junit:junit:${Versions.junit_4_version}"
+    val kotlinx_coroutines_test = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.kotlinx_coroutines_test}"
 }

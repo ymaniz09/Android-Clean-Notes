@@ -4,11 +4,11 @@ object Dependencies {
     val kotlin_standard_library = "org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}"
     val kotlin_reflect = "org.jetbrains.kotlin:kotlin-reflect:${Versions.kotlin}"
     val ktx = "androidx.core:core-ktx:${Versions.ktx}"
-    val kotlin_coroutines =
+    const val kotlin_coroutines =
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines_version}"
-    val kotlin_coroutines_android =
+    const val kotlin_coroutines_android =
         "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines_version}"
-    val kotlin_coroutines_play_services =
+    const val kotlin_coroutines_play_services =
         "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:${Versions.coroutines_play_services}"
     val dagger = "com.google.dagger:dagger:${Versions.dagger}"
     val navigation_fragment =

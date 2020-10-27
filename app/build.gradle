@@ -80,5 +80,6 @@ dependencies {
     testImplementation TestDependencies.jupiter_api
     testImplementation TestDependencies.jupiter_params
     testImplementation TestDependencies.junit4
+    testImplementation TestDependencies.kotlinx_coroutines_test
     testRuntimeOnly TestDependencies.jupiter_engine
 }
